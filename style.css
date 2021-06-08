@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+#form div {
+  align-self: center;
+}
+button {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  width: 25%;
+}
